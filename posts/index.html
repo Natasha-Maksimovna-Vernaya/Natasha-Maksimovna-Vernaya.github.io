@@ -15,6 +15,12 @@ background: '/img/Yuugureshukkoumae.JPG'
     <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
     {% endif %}
   </a>
+  +  <p>
+    +    Categories :
+    +    {% for category in post.categories %}
+    +      <a href="{{site.baseurl}}/categories/index#{{ category | slugify }}">{{ category | capitalize }}</a>
+    +    {% endfor %}
+    +  </p>
   <p class="post-meta">Posted by
     {% if post.author %}
     {{ post.author }}
