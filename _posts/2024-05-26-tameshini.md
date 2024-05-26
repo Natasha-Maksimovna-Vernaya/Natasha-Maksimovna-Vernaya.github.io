@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "試しにMaekdownで書いてみる"
+title: "試しにMarkdownで書いてみる"
 subtitle: "テスト的なsomething"
 date: 2024-05-26
 background: ''
