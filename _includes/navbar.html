@@ -14,15 +14,15 @@
         <li class="nav-item">
           <a class="nav-link" href="{{"/about" | relative_url }}">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ "/posts" | relative_url }}">Posts</a>
-        </li>
-        <ul>
-          <li><a href="/posts/others">others</a></li>
-          <li><a href="/posts/diary">diary</a></li>
+        <li class="nav-item" id="site-category">
+          <a class="nav-link" href="/posts">Posts</a>
+          <ul>
+            <li><a href="/posts/diary">diary</a></li>
+            <li><a href="/posts/others">others</a></li>
         </ul>
+        </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ "/categories/index" | relative_url }}">category</a>
+          <a class="nav-link" href="{{"/tags" | relative_url }}">tags</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{"/contact" | relative_url }}">Contact</a>
