@@ -1,5 +1,5 @@
 ---
 layout: category
-title: posts/diary
+title: diary
 permalink: '/posts/diary'
 ---

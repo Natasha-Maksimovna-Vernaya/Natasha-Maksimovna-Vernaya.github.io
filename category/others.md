@@ -1,5 +1,5 @@
 ---
 layout: category
-title: posts/others
+title: others
 permalink: '/posts/others'
 ---
