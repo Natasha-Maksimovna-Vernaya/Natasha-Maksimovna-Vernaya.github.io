@@ -1,5 +1,5 @@
 ---
 layout: category
 title: posts/diary
-permalink: '/huis/posts/diary'
+permalink: '/posts/diary'
 ---
