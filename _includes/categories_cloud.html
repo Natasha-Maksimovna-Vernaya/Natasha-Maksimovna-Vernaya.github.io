@@ -14,7 +14,7 @@
 {% else %}
   {% assign category_names = "" | split: "|"  %}
 
-  {% for posts_by_tag in site.tags %}
+  {% for posts_by_categories in site.categories %}
     {% assign category_names = category_names | push: posts_by_categories.first %}
   {% endfor %}
 
