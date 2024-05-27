@@ -1,5 +1,5 @@
 ---
 layout: category
 title: others
-permalink: '/posts/others'
+permalink: '/categories/others'
 ---
