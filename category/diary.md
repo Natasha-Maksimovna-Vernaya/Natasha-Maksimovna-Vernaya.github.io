@@ -2,5 +2,5 @@
 layout: category
 title: diary
 permalink: '/categories/diary'
-background: 'img/IMG_1249.JPG'
+background: 'img/DSC00300.JPG'
 ---
