@@ -18,7 +18,7 @@ background: '/'
     <p>
        Categories :
        {% for category in post.categories %}
-         <a href="{{site.baseurl}}/categories/index#{{ category | slugify }}">{{ category | capitalize }}</a>
+         <a href="{{site.baseurl}}/categories/#{{ category | slugify }}">{{ category | capitalize }}</a>
        {% endfor %}
     </p>
   <p class="post-meta">Posted by
