@@ -39,7 +39,7 @@ $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
 $red:     #dc3545 !default;
 $orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
+$yellow:  #ffd700 !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
@@ -165,7 +165,7 @@ $sizes: map-merge(
 //
 // Settings for the `<body>` element.
 
-$body-bg:                   $white !default;
+$body-bg:                   $black !default;
 $body-color:                $gray-900 !default;
 
 
@@ -321,13 +321,13 @@ $lead-font-weight:            300 !default;
 
 $small-font-size:             80% !default;
 
-$text-muted:                  $gray-600 !default;
+$text-muted:                  $white!default;
 
-$blockquote-small-color:      $gray-600 !default;
+$blockquote-small-color:      $white !default;
 $blockquote-small-font-size:  $small-font-size !default;
 $blockquote-font-size:        $font-size-base * 1.25 !default;
 
-$hr-border-color:             rgba($black, .1) !default;
+$hr-border-color:             rgba($white, 100) !default;
 $hr-border-width:             $border-width !default;
 
 $mark-padding:                .2em !default;

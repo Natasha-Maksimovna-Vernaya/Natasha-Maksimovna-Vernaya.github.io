@@ -79,7 +79,7 @@
             -moz-transition: -moz-transform 0.2s;
             transition: transform 0.2s;
             border-bottom: 1px solid darken($white, .05);
-            background-color: fade-out($white, .1);
+            background-color: fade-out($yellow, .1);
 
             .navbar-brand {
                 color: $gray-900;
@@ -125,13 +125,13 @@
     }
   
   #site-category a:hover{
-    background: rgb(71,71,71);
+    background: black;
     color:#FFFFFF;
     text-decoration:none;
     }
   
   #navbarResponsive li ul{
-    background: rgb(109,109,109);
+    background: #ffd700;
     display:none;
     height:auto;
     padding:0px;
@@ -171,7 +171,7 @@
       }
   
     #navbarResponsive li ul a:hover{
-      background: rgb(71,71,71);
+      background:black;
       border:0px;
       color:#ffffff;
       text-decoration:none;
