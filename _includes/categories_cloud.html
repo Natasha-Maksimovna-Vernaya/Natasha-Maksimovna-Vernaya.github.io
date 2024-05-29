@@ -22,10 +22,16 @@
 {% endif %}
 
 <ul class="categories-cloud">
-  {% for category_name in category_names %}
+  {% capture categories %}
+  {% for category in site.categories %}
+    {{ category[1].size | plus: 1000 }}#{{ category[0] }}#{{ category[1].size }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtags = categories | split:' ' | sort %}
+{% for category in sortedtags reversed %}
+    {% assign categoryitems = category | split: '#' %}
     <li>
-      <a href="{{ site.baseurl }}/categories#{{ category_name | slugize }}">
-        {{ category_name}}
+      <a href="{{ site.baseurl }}/categories/#{{ categoryitems[1] }}">{{ categoryitems[1] }} ({{ categoryitems[2] }})
       </a>
     </li>
   {% endfor %}
