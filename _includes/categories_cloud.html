@@ -31,7 +31,7 @@
 {% for category in sortedtags reversed %}
     {% assign categoryitems = category | split: '#' %}
     <li>
-      <a href="{{ site.baseurl }}/categories/#{{ categoryitems[1] }}">{{ categoryitems[1] }} ({{ categoryitems[2] }})
+      <a href="{{ site.baseurl }}/categories/{{ categoryitems[1] }}">{{ categoryitems[1] }} ({{ categoryitems[2] }})
       </a>
     </li>
   {% endfor %}
